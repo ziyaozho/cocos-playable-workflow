@@ -2,7 +2,7 @@
 
 name: cocos-playable-workflow
 
-description: 用于按参考视频或策划案制作 Cocos Creator 3D 试玩、还原画面与优化互动吸引力，以及模型与产物替换、动画摆放、UI 文案与多语言声明适配，以及 SuperHTML/AppLovin 压缩、导出包修复和渠道验证；按授权区分源工程与仅包体修改，保存恢复点、先写 BDD 并核对实际产物。
+description: 用于按参考视频或策划案制作 Cocos Creator 3D 试玩、还原画面与优化互动吸引力，以及模型与产物替换、动画摆放、UI 文案与多语言声明适配，以及 包体、启动耗时、运行内存与帧率优化，以及 SuperHTML/AppLovin 压缩、导出包修复和渠道验证；按授权区分源工程与仅包体修改，保存恢复点、先写 BDD 并核对实际产物。
 
 ---
 
@@ -78,7 +78,7 @@ description: 用于按参考视频或策划案制作 Cocos Creator 3D 试玩、�
 
 - 启动或加载提速：启动性能与就绪状态，分别验证首屏、真实场景和输入可用。
 
-- 掉帧、子弹密集卡顿、低帧率拖动迟滞或近景血条裁切：按需读取[运行性能与输入适配](references/performance-and-input.md)，区分输入丢失、逻辑更新开销与实际渲染性能。
+- 包体与启动速度权衡、峰值内存、掉帧、低帧率拖动或近景血条裁切：按需读取[运行性能与输入适配](references/performance-and-input.md)，区分输入丢失、逻辑更新开销与实际渲染性能。
 
 - 仅改现有 HTML、受限沙盒启动、渠道扫描、商店分流、MRAID 或音频隐藏：读取[包体修改与渠道验证](references/packaged-runtime-checks.md)，保留已确认的修改边界并按实际调用链验收。
 
